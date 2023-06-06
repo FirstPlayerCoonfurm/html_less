@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
      <link rel="stylesheet" href="index.css">
+	 <script src="index.js"></script>
     <title>Список задач</title>
 </head>
 <body>
@@ -25,6 +26,9 @@
 		</div>
 			<input class="text_field" type="text" name="username" placeholder="Добавить задачу: " value="">
         		<button class="but" type="submit">Добавить</button>
+				<button class="but" type="button" onclick="filterTasks('all')">Все задачи</button>
+        		<button class="but" type="button" onclick="filterTasks('done')">Выполненные задачи</button>
+        		<button class="but" type="button" onclick="filterTasks('undone')">Невыполненные задачи</button>
         </div>
 	</form>
 </body>
