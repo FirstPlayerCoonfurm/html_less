@@ -61,3 +61,8 @@ ul li{
 .conteiner .list ul li:nth-child(2n+1){
 	background-color: #fff;
 }
+
+
+input[type="checkbox"]:checked + label {
+	text-decoration: line-through;
+  }
